@@ -49,7 +49,7 @@ pipeline {
                             mvn sonar:sonar \
                                 -Dsonar.projectKey=proyectoMaven \
                                 -Dsonar.host.url=http://172.31.7.99:8081 \
-                                -Dsonar.login=6b674b3412bf8d985f3d3c0536c8ae05fa256efe
+                                -Dsonar.login=b4c492886941b2b571115d285221f5ad6fe6b22f
                             """
                         }
                         timeout(time: 10, unit:'MINUTES'){
